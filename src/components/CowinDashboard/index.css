@@ -1,0 +1,49 @@
+.cowindashbord-container {
+  background-color: #161625;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+.website-name {
+  font-family: 'Roboto';
+  color: #2cc6c6;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.website-logo {
+  width: 30px;
+  padding-right: 5px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #ffffff;
+}
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.failure-view-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #ffffff;
+}
+.failure-view-img {
+  width: 50%;
+}
